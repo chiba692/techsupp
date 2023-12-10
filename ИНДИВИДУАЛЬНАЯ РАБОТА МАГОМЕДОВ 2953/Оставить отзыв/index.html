@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="vv.js"></script>
+  <title>Отзывы</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid black;
+    }
+
+    tr:hover {
+      background-color: #F7F9FB;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+    
+    label, input, textarea {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .menu {
+    position: relative; top: 390px;
+    position: relative; right: 40px;
+    background-color: #F7F9FB;
+    width: 300px;
+    height: 98px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding-right: 0px;
+    text-align: left;;
+}
+  </style>
+</head>
+<body>
+  <h1>Отзывы</h1>
+  <table>
+    <tr>
+      <th>Имя</th>
+      <th>Отзыв</th>
+    </tr>
+    <tr>
+      <td>Илюха</td>
+      <td>Реально круто, буду пользоваться</td>
+    </tr>
+    <tr>
+      <td>Егор</td>
+      <td>Сайт говно, без негатива</td>
+    </tr>
+  </table>
+
+
+  <form>
+    <h2>Оставьте свой отзыв</h2>
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name" required>
+    <label for="review">Отзыв:</label>
+<textarea id="review" name="review" required></textarea>
+<button onclick="showMessage()">Отправить</button>
+</form>
+
+
+  <div class="menu">
+    <ul>
+      <li><a href="file:///C:/Users/Артур/Desktop/ИНДИВИДУАЛЬНАЯ%20РАБОТА%20МАГОМЕДОВ%202953/Часто%20задаваемые%20вопросы/index.html">Часто задаваемые вопросы</a></li>
+      <li><a href="file:///C:/Users/Артур/Desktop/ИНДИВИДУАЛЬНАЯ%20РАБОТА%20МАГОМЕДОВ%202953/Обратная%20связь/index.html">Обратная связь</a></li>
+      <li><a href="file:///C:/Users/Артур/Desktop/ИНДИВИДУАЛЬНАЯ%20РАБОТА%20МАГОМЕДОВ%202953/Оставить%20отзыв/index.html">Написать отзыв</a></li>
+      <li><a href="file:///C:/Users/Артур/Desktop/ИНДИВИДУАЛЬНАЯ%20РАБОТА%20МАГОМЕДОВ%202953/index.html">Домой</a></li>
+    </ul>
+  </div>
+</body>
+</html>
