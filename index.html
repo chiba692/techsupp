@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Частозадаваемые вопросы</title>
-    <link rel="shortcut icon" href="favicon5.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon4.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
       <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -46,17 +46,40 @@
     padding-right: 0px;
     text-align: left;;
 }
+nav {
+            background-color: #31708E;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            text-align: left;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 10px;}
   </style>
 </head>
 <body>
-    <div class="menu">
-        <ul>
-            <li><a href="https://chiba692.github.io/techsupp/">Часто задаваемые вопросы</a></li>
-            <li><a href="https://chiba692.github.io/-/">Обратная связь</a></li>
-            <li><a href="https://chiba692.github.io/techosupport/">Написать отзыв</a></li>
-            <li><a href="https://chiba692.github.io/techosupp/">Домой</a></li>
-        </ul>
-      </div>
+  <link rel="stylesheet" media="screen and (max-width: 480px)" href="styles_mobile.css">
+<link rel="stylesheet" media="screen and (min-width: 481px) and (max-width: 1024px)" href="styles_tablet.css">
+<link rel="stylesheet" media="screen and (min-width: 1025px) and (max-width: 1366px)" href="styles_laptop.css">
+<link rel="stylesheet" media="screen and (min-width: 1367px)" href="styles_desktop.css">
+<picture>
+  <source srcset="image_small.jpg" media="(max-width: 480px)">
+  <source srcset="image_medium.jpg" media="(min-width: 481px) and (max-width: 1024px)">
+  <source srcset="image_large.jpg" media="(min-width: 1025px)">
+  
+</picture>
+  <nav>
+        <a href="#">О авторе</a>
+        <a href="#">Главная</a>
+        <a href="#">Обратная связь</a>
+        <a href="#">Частозадаваемые вопросы</a>
+    </nav>
 
 <h2>Частозадаваемые вопросы по компьютерам</h2>
 
